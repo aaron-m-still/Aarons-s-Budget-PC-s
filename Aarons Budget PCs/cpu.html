@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="My custom built computer website!">
+    <meta name="keywords" content="computers,custom built computers, gaming computers">
+    <meta name="author" content="Aaron Still">
+    <title> Aarons Budget PCs | Motherboards </title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+   <header>
+    <div class="container">
+      <div id="branding">
+        <h1> <span class="highlight">Aarons</span> Budget PCs</h1>
+      </div>
+      <nav>
+        <ul>
+        <li class="current"><a href="index.htm">Home</a></li>
+        <li><a href="builds.htm">Builds</a></li>
+        <li><a href="howto.htm">How To</a></li>
+        <li>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">PARTS</button>
+  <div id="myDropdown" class="dropdown-content">
+          <a href="cpu.html">CPUs</a>
+          <a href="gpu.html">GPUs</a>
+          <a href="ram.html">Ram</a>
+          <a href="motherboard.html">Motherboards</a>
+        </div>
+      </div>
+      <script>
+      function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        </li>
+        </ul>
+      </nav>
+     </div>
+   </header>
+           <section id="main">
+             <h1> Budget CPUs </h1>
+             <h3> When buying a CPU stick with AMD or Intel </h3>
+             <h3> You dont need a graphics with the AMD CPUs Vega Graphics </h3>
+             <h3> Tap on the preview to buy! </h3>
+             <section id="boxes">
+               <div class="container">
+                  <div class="box">
+                    <h1> Intel </h1>
+             <p> Intel Pentium G4600 3.6 LGA 1151 GHz Dual-Core Desktop Processor BX80677G4600 </p>
+             <p> <a href="https://goo.gl/JvXB7s"><img src="./img/intel1.jpg" style="width:250px; height:250px"></a></p>
+             <p>Intel 8th Gen Core i3-8100 Processor</p>
+             <p> <a href="https://goo.gl/gx3RPP"><img src="./img/intel2.jpg" style="width:250px; height:250px"></a></p>
+           </div>
+           <div class="box1">
+             <h1> AD </h1>
+        <p>AD </p>
+        <p> <img src="./img/ad.jpg" style="width:250px; height:250px"></p>
+        <p>AD</p>
+        <p> <img src="./img/ad.jpg" style="width:250px; height:250px"></p>
+      </div>
+                <div class="box2">
+                  <h1> AMD </h1>
+             <p>AMD Ryzen 3 2200G Processor with Radeon Vega 8 Graphics</p>
+             <p> <a href="https://goo.gl/8uPdNY"><img src="./img/amd1.jpg" style="width:250px; height:250px"></a></p>
+             <p>AMD Ryzen 5 2400G Processor with Radeon RX Vega 11 Graphics</p>
+             <p> <a href="https://goo.gl/Gi7pUZ"><img src="./img/amd2.jpg" style="width:250px; height:250px"></a></p>
+           </div>
+         </div>
+          </section>
+        <footer>
+     <p>Aarons Budget PCs, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>﻿

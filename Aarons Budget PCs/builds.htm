@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="My custom built computer website!">
+    <meta name="keywords" content="computers,custom built computers, gaming computers">
+    <meta name="author" content="Aaron Still">
+    <title> Aarons Budget PCs | Computers </title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+   <header>
+    <div class="container">
+      <div id="branding">
+        <h1> <span class="highlight">Aarons</span> Budget PCs</h1>
+      </div>
+      <nav>
+        <ul>
+        <li class="current"><a href="index.htm">Home</a></li>
+        <li><a href="builds.htm">Builds</a></li>
+        <li><a href="howto.htm">How To</a></li>
+        <li>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">PARTS</button>
+  <div id="myDropdown" class="dropdown-content">
+          <a href="cpu.html">CPUs</a>
+          <a href="gpu.html">GPUs</a>
+          <a href="ram.html">Ram</a>
+          <a href="motherboard.html">Motherboards</a>
+        </div>
+      </div>
+      <script>
+      function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        </li>
+        </ul>
+      </nav>
+     </div>
+   </header>
+   <section id="title">
+         <h1> Budget Builds </h1>
+         <h3> Below are the cheapest and best budget builds for your next PC </h3>
+         <h4> The reason each pc is called the brick is because, they both play games strong and are built to last! </h4>
+       </section>
+    <section id:"main">
+      <div class="container">
+        <article id="main-col">
+          <h3> The Brick 1.0 (intel)  </h3>
+          <img src="./img/brick.jpg" style="width:250px;height:250px;">
+           <ul>
+           <li><b> Motherboard</b> </li>
+           <li> GIGABYTE GA-B250M-Gaming 3 LGA1151 Intel B250 Micro ATX Cost:$88</li>
+           <li> <b>Processor</b> </li>
+           <li> Intel Pentium G4600 Cost:$80</li>
+           <li> <b>Graphics Card</b> </li>
+           <li> Graphics CardGigabyte Geforce GTX 1050 Ti Cost: $170</li>
+           <li> <b>Ram</b> </li>
+           <li> Crucial 8GB Single DDR4 2133 MT/s Cost: $85</li>
+           <li> <b>Storage</b> </li>
+           <li> WD Blue 3D NAND 250GB PC SSD Cost:$80</li>
+           <li> <b>Power Supply</b> </li>
+           <li> EVGA 500 B1, 80+ BRONZE 500W Power Supply Cost:$55</li>
+           <li> <b>Case</b> </li>
+           <li> ROSEWILL ATX Mid Tower Gaming Computer Case Cost:$40</li>
+        </ul>
+        <p> <b>Total Cost: $600</b> </p>
+        </article>
+        <article id="main-col2">
+          <h3> The Brick 2.0 (AMD)  </h3>
+          <img src="./img/brick2.jpg " style="width:250px;height:250px;">
+           <ul>
+             <li> <b>Motherboard</b> </li>
+           <li> GIGABYTE GA-AB350M-Gaming 3 Cost:$80</li>
+           <li> <b> Processor </b> </li>
+           <li> AMD Ryzen 5 2400G Processor with Radeon RX Vega 11 Graphics Cost:$160</li>
+           <li> <b> Graphics Card </b> </li>
+           <li> None built in Vega 11 Graphics </li>
+           <li> <b> Ram </b> </li>
+           <li> Ballistix Sport LT 8GB Single DDR4 Cost: $82</li>
+           <li> <b> Storage </b> </li>
+           <li> WD Blue 3D NAND 250GB PC SSD Cost:$70</li>
+           <li> <b> Power Supply </b> </li>
+           <li> EVGA 500 B1, 80+ BRONZE 500W Power Supply Cost:$40</li>
+           <li> <b> Case </b> </li>
+           <li> Corsair Carbide SPEC-04 Black/Red Mid-Tower Gaming Case Cost:$45</li>
+        </ul>
+        <p> <b>Total Cost: $480 </b></p>
+      </div>
+       </section>
+      <footer>
+     <p>Aarons Budget PCs, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>﻿

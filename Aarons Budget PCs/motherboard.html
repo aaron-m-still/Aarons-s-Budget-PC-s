@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="My custom built computer website!">
+    <meta name="keywords" content="computers,custom built computers, gaming computers">
+    <meta name="author" content="Aaron Still">
+    <title> Aarons Budget PCs | Motherboards </title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+   <header>
+    <div class="container">
+      <div id="branding">
+        <h1> <span class="highlight">Aarons</span> Budget PCs</h1>
+      </div>
+      <nav>
+        <ul>
+        <li class="current"><a href="index.htm">Home</a></li>
+        <li><a href="builds.htm">Builds</a></li>
+        <li><a href="howto.htm">How To</a></li>
+        <li>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">PARTS</button>
+  <div id="myDropdown" class="dropdown-content">
+          <a href="cpu.html">CPUs</a>
+          <a href="gpu.html">GPUs</a>
+          <a href="ram.html">Ram</a>
+          <a href="motherboard.html">Motherboards</a>
+        </div>
+      </div>
+      <script>
+      function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        </li>
+        </ul>
+      </nav>
+     </div>
+   </header>
+           <section id="main">
+             <h1> Budget Motherboards </h1>
+             <h3> When looking for a motherboard the brands we recommened are Asus, MSI and Gigabyte </h3>
+             <h3> The motherboards are in order from lowest to highest price </h3>
+             <h3> Tap on the preview to buy! </h3>
+             <section id="boxes">
+               <div class="container">
+                  <div class="box">
+                    <h1> GIGABYTE </h1>
+             <p> GIGABYTE GA-B250M-DS3H LGA1151 Intel Micro ATX DDR4 Motherboard </p>
+             <p> <a href="https://goo.gl/ZFyRyb"><img src="./img/gbudget.png"></a></p>
+             <p>GIGABYTE GA-B250M-Gaming 3 LGA1151 Intel B250 Micro ATX Motherboard</p>
+             <p> <a href="https://goo.gl/tuo1DY"><img src="./img/gbudget2.png"></a></p>
+           </div>
+                <div class="box1">
+                  <h1> MSI </h1>
+             <p>MSI Gaming AMD Ryzen A320 DDR4 VR Ready HDMI Micro-ATX Motherboard </p>
+             <p> <a href="https://goo.gl/8Ub9GE"><img src="./img/gbudget3.png"></a></p>
+             <p>MSI Gaming AMD Ryzen B350 DDR4 VR Ready HDMI USB 3 CFX micro-ATX Motherboard (B350M GAMING PRO)</p>
+             <p> <a href="https://goo.gl/FvnkWj"><img src="./img/gbudget4.png"></a></p>
+           </div>
+                <div class="box2">
+                  <h1> ASUS </h1>
+             <p>ASUS ROG STRIX B250G GAMING LGA1151 DDR4 HDMI DVI M.2 Intel Micro-ATX Motherboard with USB 3.1</p>
+             <p> <a href="https://goo.gl/bjfU3v"> <img src="./img/gbudget5.png" style="width:250px; height:250px;"></a> </p>
+             <p>ASUS ROG STRIX B350-F GAMING AMD Ryzen AM4 DDR4 HDMI DisplayPort M.2 USB 3.1 AMD ATX B350 Motherboard </p>
+             <p> <a href="https://goo.gl/zqYjYD"> <img src="./img/gbudget6.png" style="width:250px; height:250px"></a> </p>
+           </div>
+         </div>
+          </section>
+        <footer>
+     <p>Aarons Budget PCs, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>﻿
